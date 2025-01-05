@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pushpa - Home</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"> 
+    <link rel="stylesheet" href="style.css">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">Pushpa</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Occasion</a>
+                        <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/#products">Daily Pooja</a></li>
+                            <li><a class="dropdown-item" href="/#products">Temple Ritual</a></li>
+                            <li><a class="dropdown-item" href="/#products">Wedding</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/cart.html" tabindex="-1">Cart <i class="bi bi-cart-plus-fill"></i></a>
+                    </li>
+                </ul>
+                <form class="d-flex search-form">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success" type="submit" data-bs-toggle="tooltip" data-bs-placement="left" title="Search for all products">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Products Section -->
+    <div class="container my-5">
+        <div class="row" id="products">
+            <!-- Product 1 -->
+            <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                <div class="card product-item">
+                    <a href="product.html">
+                        <img src="Images/61Pidjy7QFL._SX679_.jpg" class="card-img-top" alt="Lotus">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="product-lotus.html">Lotus (Tamarai)</a></h5>
+                        <p class="card-text">Rs. 30.00</p>
+                        <a class="btn btn-dark w-100" href="cart.html">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                <div class="card product-item">
+                    <a href="product.html">
+                        <img src="Images/71ADRETZmnL._SX679_.jpg" class="card-img-top" alt="Hibiscus">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="product-hibiscus.html">Hibiscus (Sembaruthi)</a></h5>
+                        <p class="card-text">Rs. 25.00</p>
+                        <a class="btn btn-dark w-100" href="cart.html">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                <div class="card product-item">
+                    <a href="product.html">
+                        <img src="Images/mysore-jasmine.jpg" class="card-img-top" alt="Jasmine">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="product-jasmine.html">Jasmine (Mallige)</a></h5>
+                        <p class="card-text">Rs. 20.00</p>
+                        <a class="btn btn-dark w-100" href="cart.html">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 4 -->
+            <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                <div class="card product-item">
+                    <a href="product.html">
+                        <img src="Images/New community features for Google Chat and an update on Currents.jpeg" class="card-img-top" alt="Rose">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="product-rose.html">Rose (Rosa)</a></h5>
+                        <p class="card-text">Rs. 50.00</p>
+                        <a class="btn btn-dark w-100" href="cart.html">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="footer mt-auto bg-dark text-light">
+      <div class="container py-3">
+          <div class="row d-flex footer-items">
+              <div class="col-lg-4">
+                  <h5>Occasion</h5>
+                  <ul>
+                      <li><a href="#">Daily Pooja</a></li>
+                      <li><a href="#">Temple Ritual</a></li>
+                      <li><a href="#">Wedding</a></li>
+                  </ul>
+              </div>
+              <div class="col-lg-4">
+                 <h5>Useful Links</h5>
+                 <ul>
+                     <li><a href="#">Terms</a></li>
+                     <li><a href="#">Privacy</a></li>
+                     <li><a href="#">About us</a></li>
+                 </ul>
+             </div>
+             <div class="col-lg-4">
+                 <h5>Get Updates</h5>
+                 <div class="d-flex subscribe">
+                     <input type="text" class="form-control">
+                     <button class="btn btn-warning">Subscribe</button>
+                 </div>
+                 <div class="mt-2">
+                  <div class="btn-group me-2 social-icons" role="group" aria-label="First group">
+                    <button type="button" class="btn btn-secondary mx-1 d-flex flex-column justify-content-center align-items-center">
+                      <i class="bi bi-facebook"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary mx-1 d-flex flex-column justify-content-center align-items-center">
+                      <i class="bi bi-instagram"></i>
+                    </button>                      
+                    <button type="button" class="btn btn-secondary mx-1 d-flex flex-column justify-content-center align-items-center">
+                      <i class="bi bi-twitter"></i>
+                    </button>                      
+                    <button type="button" class="btn btn-secondary mx-1 d-flex flex-column justify-content-center align-items-center">
+                      <i class="bi bi-linkedin"></i>
+                    </button>                   
+                   </div>
+                 </div>
+             </div>
+         </div>
+         <div class="row text-center">
+           <span>Pushpa</span>
+         </div>
+      </div>
+   
+  </div>
+  <!-- End
+    
+    <script src="app.js"></script>
+</body>
+</html>
